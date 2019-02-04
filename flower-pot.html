@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    .position_abs {
+        position: absolute;
+    }
+
+    .container {
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+
+    .flower_pot {
+        bottom: 0;
+        width: 350px;
+        height: 360px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .vase {
+        bottom: 64px;
+        width: 110px;
+        height: 20px;
+        border-radius: 3px;
+        background: #884526;
+        right: 0;
+        margin: 0 auto;
+        left: 0;
+    }
+
+    .vase:before {
+        position: absolute;
+        top: 20px;
+        left: 6px;
+        width: 67px;
+        height: 0;
+        content: '';
+        border-top: 84px solid #c75f2e;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-radius: 0 0 28px 28px;
+    }
+
+
+    .leaf {
+        top: 0;
+        background-color: #2b8a30;
+        width: 60px;
+        height: 128px;
+        border-radius: 50%/30% 30% 70% 70%;
+        transform: rotate(-195deg);
+    }
+
+    .bundle {
+        width: 140px;
+        height: 300px;
+        border: solid 5px #104912;
+        border-color: transparent #104912 transparent transparent;
+        border-radius: 40%/70px 225px 180px 0px;
+        left: -92px;
+        top: 25px;
+        transform: rotate(-5deg);
+    }
+
+    .leaf_small {
+        top: 0;
+        background-color: #2b8a30;
+        width: 50px;
+        height: 108px;
+        border-radius: 50%/30% 30% 70% 70%;
+        transform: rotate(-195deg);
+    }
+
+    .bundle_small {
+        width: 130px;
+        height: 220px;
+        border: solid 5px #104912;
+        border-color: transparent #104912 transparent transparent;
+        border-radius: 40%/80px 105px 160px 0px;
+        left: -100px;
+        top: 25px;
+        transform: rotate(3deg);
+    }
+
+    .leaf_down {
+        top: 52px;
+        background-color: #2b8a30;
+        width: 50px;
+        height: 108px;
+        border-radius: 50%/30% 30% 70% 70%;
+        transform: rotate(25deg);
+        left: -14px;
+    }
+
+    .bundle_down {
+        width: 180px;
+        height: 180px;
+        border: solid 5px #104912;
+        border-color: transparent #104912 transparent transparent;
+        border-radius: 68%/30px 115px 180px 0px;
+        left: -78px;
+        top: 59px;
+        transform: rotate(-27deg);
+    }
+
+    .bundle_test {
+        width: 160px;
+        height: 100px;
+        border: solid 5px #104912;
+        background-color: transparent;
+        left: -68px;
+        top: 59px;
+        transform: rotate(-56deg);
+        border-radius: 50%;
+    }
+
+    .bundle_test_container {
+        width: 120px;
+        height: 164px;
+        overflow: hidden;
+        transform: translate(8px, 10px) rotate(-37deg);
+        left: 0;
+
+    }
+
+    .leaf_01 {
+        transform: translate(-13px, 0px);
+        transform-origin: bottom;
+    }
+
+    .leaf_02 {
+        transform: translate(55px, 0px) rotate(11deg);
+        transform-origin: bottom;
+    }
+
+    .leaf_03 {
+        transform: translate(156px, 30px) rotate(11deg) scaleX(-1);
+        transform-origin: bottom;
+
+    }
+
+
+    .leaf_02 .leaf {
+        background-color: #1b6820;
+    }
+
+    .leaf_03 .leaf {
+        background-color: #329637;
+    }
+
+    .leaf_05 .leaf_small {
+        background-color: #1d7124;
+    }
+
+    .leaf_04 {
+        transform: translate(-87px, 88px) rotate(-29deg);
+        transform-origin: bottom;
+    }
+
+    .leaf_05 {
+        transform: translate(221px, 131px) rotate(41deg) scaleX(-1);
+        transform-origin: bottom;
+    }
+
+    .leaf_06 {
+        transform: translate(-105px, 130px) rotate(-9deg);
+        transform-origin: bottom;
+
+    }
+
+    .all_leafs {
+        transform: translate(126px, 10px);
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="flower_pot position_abs">
+            <div class="all_leafs position_abs">
+                <div class="leaf_02 position_abs">
+                    <div class="leaf position_abs"></div>
+                    <div class="bundle position_abs"></div>
+                </div>
+                <div class="leaf_01 position_abs">
+                    <div class="leaf position_abs"></div>
+                    <div class="bundle position_abs"></div>
+                </div>
+                <div class="leaf_03 position_abs">
+                    <div class="leaf position_abs"></div>
+                    <div class="bundle position_abs"></div>
+                </div>
+                <div class="leaf_04 position_abs">
+                    <div class="leaf_small position_abs"></div>
+                    <div class="bundle_small position_abs"></div>
+                </div>
+                <div class="leaf_05 position_abs">
+                    <div class="leaf_small position_abs"></div>
+                    <div class="bundle_small position_abs"></div>
+                </div>
+                <div class="leaf_06 position_abs">
+                    <div class="leaf_down position_abs"></div>
+                    <!--  <div class="bundle_down position_abs"></div> -->
+                    <div class="bundle_test_container position_abs">
+                        <div class="bundle_test position_abs"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="vase position_abs"></div>
+        </div>
+    </div>
+</body>
+
+</html>

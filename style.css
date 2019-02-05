@@ -1,0 +1,157 @@
+.position_abs {
+    position: absolute
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 500px
+}
+
+.flower_pot {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    height: 360px;
+    margin: 0 auto
+}
+
+.vase {
+    right: 0;
+    bottom: 64px;
+    left: 0;
+    width: 110px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: #884526
+}
+
+.vase:before {
+    position: absolute;
+    top: 20px;
+    left: 6px;
+    width: 67px;
+    height: 0;
+    content: '';
+    border-top: 84px solid #c75f2e;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-radius: 0 0 28px 28px
+}
+
+.leaf {
+    top: 0;
+    width: 60px;
+    height: 128px;
+    transform: rotate(-195deg);
+    border-radius: 50%/30% 30% 70% 70%;
+    background-color: #2b8a30
+}
+
+.leaf_small {
+    top: 0;
+    width: 50px;
+    height: 108px;
+    transform: rotate(-195deg);
+    border-radius: 50%/30% 30% 70% 70%;
+    background-color: #2b8a30
+}
+
+.leaf_down {
+    top: 52px;
+    left: -14px;
+    width: 50px;
+    height: 108px;
+    transform: rotate(25deg);
+    border-radius: 50%/30% 30% 70% 70%;
+    background-color: #2b8a30
+}
+
+.bundle {
+    top: 25px;
+    left: -92px;
+    width: 140px;
+    height: 300px;
+    transform: rotate(-5deg);
+    border: solid 5px #104912;
+    border-color: transparent #104912 transparent transparent;
+    border-radius: 40%/70px 225px 180px 0
+}
+
+.bundle_small {
+    top: 25px;
+    left: -100px;
+    width: 130px;
+    height: 220px;
+    transform: rotate(3deg);
+    border: solid 5px #104912;
+    border-color: transparent #104912 transparent transparent;
+    border-radius: 40%/80px 105px 160px 0
+}
+
+.bundle_down {
+    top: 59px;
+    left: -68px;
+    width: 160px;
+    height: 100px;
+    transform: rotate(-56deg);
+    border: solid 5px #104912;
+    border-radius: 50%;
+    background-color: transparent
+}
+
+.bundle_down_container {
+    left: 0;
+    overflow: hidden;
+    width: 120px;
+    height: 164px;
+    transform: translate(8px, 10px) rotate(-37deg)
+}
+
+.all_leafs {
+    transform: translate(126px, 10px)
+}
+
+.leaf_01 {
+    transform: translate(-13px, 0px);
+    transform-origin: bottom
+}
+
+.leaf_02 {
+    transform: translate(55px, 0px) rotate(11deg);
+    transform-origin: bottom
+}
+
+.leaf_02 .leaf {
+    background-color: #1b6820
+}
+
+.leaf_03 {
+    transform: translate(156px, 30px) rotate(11deg) scaleX(-1);
+    transform-origin: bottom
+}
+
+.leaf_03 .leaf {
+    background-color: #329637
+}
+
+.leaf_04 {
+    transform: translate(-87px, 88px) rotate(-29deg);
+    transform-origin: bottom
+}
+
+.leaf_05 {
+    transform: translate(221px, 131px) rotate(41deg) scaleX(-1);
+    transform-origin: bottom
+}
+
+.leaf_05 .leaf_small {
+    background-color: #1d7124
+}
+
+.leaf_06 {
+    transform: translate(-105px, 130px) rotate(-9deg);
+    transform-origin: bottom
+}

@@ -154,3 +154,16 @@ body {
     border-radius: 50px;
     transform: rotate(-18deg);
 }
+.grip {
+height: 28px;
+    width: 11px;
+    overflow: hidden;
+    transform: rotate(20deg);
+}
+..grip:afetr{
+ 
+      border: 6px solid @handlebar-color;
+      height: 26px;
+      width: 28px;
+      border-radius: 28px;
+}

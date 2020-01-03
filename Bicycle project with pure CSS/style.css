@@ -162,7 +162,7 @@ height: 28px;
 }
 .grip:afetr{
  
-      border: 6px solid @handlebar-color;
+      border: 6px solid white;
       height: 26px;
       width: 28px;
       border-radius: 28px;

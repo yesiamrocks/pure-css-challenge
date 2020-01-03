@@ -161,6 +161,7 @@ body {
     top: 117px;
     overflow: hidden;
     transform: rotate(20deg);
+    background: white;
 }
 .grip:after { 
       border: 6px solid white;

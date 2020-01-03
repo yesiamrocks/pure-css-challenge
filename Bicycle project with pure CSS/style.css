@@ -160,7 +160,7 @@ height: 28px;
     overflow: hidden;
     transform: rotate(20deg);
 }
-..grip:afetr{
+.grip:afetr{
  
       border: 6px solid @handlebar-color;
       height: 26px;

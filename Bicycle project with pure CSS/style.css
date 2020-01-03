@@ -157,6 +157,8 @@ body {
 .grip {
     height: 28px;
     width: 11px;
+    left: 393px;
+    top: 117px;
     overflow: hidden;
     transform: rotate(20deg);
 }

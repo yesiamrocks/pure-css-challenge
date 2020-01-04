@@ -164,8 +164,8 @@ body {
     background: white;
 }
 .grip:after { 
-      border: 6px solid white;
-      height: 26px;
-      width: 28px;
-      border-radius: 28px;
+    border: 6px solid white;
+    height: 26px;
+    width: 28px;
+    border-radius: 28px;
 }

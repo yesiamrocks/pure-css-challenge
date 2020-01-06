@@ -1,9 +1,14 @@
+:root {
+    --soft-dark-color: #1B2F47;
+    --main-bg-color: black;
+  }
+  
 body {
     background-color: #292d3e;
     text-align: center;
 
 }
-.position_abs {
+.absolute {
         position: absolute;
     }
 
@@ -23,8 +28,20 @@ body {
     margin: 0 auto;
 }
 .browser {
-    border: 12px solid black;
+    border: 12px solid var(--soft-dark-color);
     width: 100%;
     height: 318px;
     border-radius: 40px;
+}
+
+.browser__menubar {
+    margin-top: 60px;  
+    height: 12px;
+    background-color: var(--soft-dark-color);
+}
+
+.browser__menubar {
+    margin-top: 60px;  
+    height: 12px;
+    background-color: var(--soft-dark-color);
 }

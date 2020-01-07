@@ -13,6 +13,7 @@ body {
 }
 
 .artwork {
+  margin-top: 50px;
   width: 430px;
   height: 615px;
   position: relative;

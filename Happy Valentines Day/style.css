@@ -4,23 +4,12 @@
 }
 
 body {
-  background-color: #292d3e;
+  background-color: #ffffff;
   text-align: center;
 }
 
 .absolute {
   position: absolute;
-}
-
-.container {
-  position: relative;
-  max-width: 800px;
-  text-align: center;
-  background-color: #ffffff;
-  margin-top: 50px;
-  padding: 80px;
-  margin: 50px auto 0;
-  box-sizing: border-box;
 }
 
 .artwork {

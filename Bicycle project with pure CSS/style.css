@@ -152,4 +152,5 @@ body {
     top: 189px;
     background-color: black;
     border-radius: 50px;
+    transform: rotate(-18deg);
 }

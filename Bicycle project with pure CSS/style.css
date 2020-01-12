@@ -144,3 +144,10 @@ body {
     background-color: white;
     border-radius: 50px;
 }
+
+.bike__handlebar {
+    height: 15px;
+    width: 263px;
+    left: 159px;
+    top: 189px;
+}

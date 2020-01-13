@@ -121,13 +121,11 @@ body {
 }
 
 .heart_1 {
-  position: absolute;
   top: 180px;
   left: 60px;
 }
 
 .line_left {
-  position: absolute;
   width: 12px;
   height: 100px;
   background-color: #1b2f47;

@@ -126,10 +126,21 @@ body {
 }
 
 .line_left {
-  width: 12px;
+  width: 13px;
   height: 100px;
   background-color: #1b2f47;
-  border-radius: 10px;
+  border-radius: 15px;
   left: -22px;
   top: 47px;
+}
+
+.line_left::after {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 38px;
+  background-color: #1b2f47;
+  border-radius: 15px;
+  left: 0;
+  top: 107px;
 }

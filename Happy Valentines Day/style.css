@@ -165,12 +165,13 @@ body {
 }
 
 .line_right {
-  left: 27px;
-    top: 91px;
+  left: 77px;
+  top: 47px;
+  height: 100px;
+
 }
 
 .line_right::after {
  left: 0;
   top: 107px;
-  height: 38px;
 }

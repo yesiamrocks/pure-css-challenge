@@ -121,7 +121,7 @@ body {
 }
 
 .heart_1 {
-  top: 180px;
+  top: 195px;
   left: 60px;
 }
 
@@ -129,5 +129,7 @@ body {
   width: 12px;
   height: 100px;
   background-color: #1b2f47;
-  border-radius: 5px;
+  border-radius: 10px;
+  left: -22px;
+  top: 47px;
 }

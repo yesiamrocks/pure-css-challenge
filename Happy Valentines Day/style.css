@@ -125,7 +125,7 @@ body {
   left: 60px;
 }
 
-.line_left {
+.line {
   width: 13px;
   height: 100px;
   background-color: #1b2f47;
@@ -134,13 +134,43 @@ body {
   top: 47px;
 }
 
-.line_left::after {
+.line::after {
   content: "";
   position: absolute;
   width: 13px;
-  height: 38px;
+  height: 30px;
   background-color: #1b2f47;
   border-radius: 15px;
-  left: 0;
+}
+
+.line_left {
+  left: -22px;
+  top: 47px;
+}
+
+.line_left::after {
+ left: 0;
   top: 107px;
+}
+
+.line_middle {
+  left: 27px;
+    top: 91px;
+}
+
+.line_middle::after {
+ left: 0;
+  top: 107px;
+  height: 38px;
+}
+
+.line_right {
+  left: 27px;
+    top: 91px;
+}
+
+.line_right::after {
+ left: 0;
+  top: 107px;
+  height: 38px;
 }

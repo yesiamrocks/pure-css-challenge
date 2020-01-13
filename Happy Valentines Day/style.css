@@ -91,3 +91,17 @@ body {
 .love {
     
 }
+
+.heart2 {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: pink;
+  border: 1px solid;
+  height: 50px;
+  width: 50px;
+  transform: rotate(-45deg);
+}

@@ -94,13 +94,11 @@ body {
 .heart_fill {
   position: absolute;
   margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: 180px;
+  left: 60px;
   background-color: #1b2f47;
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
   transform: rotate(-45deg);
 }
 .heart_fill::after {
@@ -109,18 +107,18 @@ body {
     content: "";
     border-radius: 50%;
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     top: 0px;
-    left: 45px;
+    left: 36px;
 }
 .heart_fill::before {
   content: "";
     background-color: #1b2f47;
     border-radius: 50%;
     position: absolute;
-    width: 80px;
-    height: 80px;
-    top: -45px;
+    width: 70px;
+    height: 70px;
+    top: -36px;
     left: 0px;
 }

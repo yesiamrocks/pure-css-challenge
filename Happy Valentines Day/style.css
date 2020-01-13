@@ -90,12 +90,14 @@ body {
 
 .love {
 }
-
+.heart_fill_1 {
+  top: 180px;
+  left: 60px;
+}
 .heart_fill {
   position: absolute;
   margin: auto;
-  top: 180px;
-  left: 60px;
+
   background-color: #1b2f47;
   height: 70px;
   width: 70px;

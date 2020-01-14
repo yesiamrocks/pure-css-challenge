@@ -3,10 +3,20 @@
   --main-bg-color: black;
 }
 
+@font-face {
+    font-family: 'chasing_heartsregular';
+    src: url('fonts/chasing_hearts.woff2') format('woff2'),
+         url('fonts/chasing_hearts.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
   background-color: #ffffff;
   text-align: center;
 }
+
 
 .absolute {
   position: absolute;
@@ -202,4 +212,8 @@ body {
 
 .heart_3 .line_right::after {
   top: 90px;
+}
+
+h1 {
+  font-family: chasing_heartsregular;
 }

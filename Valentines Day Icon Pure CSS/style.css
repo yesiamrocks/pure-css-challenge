@@ -3,10 +3,20 @@
   --main-bg-color: black;
 }
 
+@font-face {
+    font-family: 'chasing_heartsregular';
+    src: url('fonts/chasing_hearts.woff2') format('woff2'),
+         url('fonts/chasing_hearts.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
   background-color: #ffffff;
   text-align: center;
 }
+
 
 .absolute {
   position: absolute;
@@ -123,7 +133,7 @@ body {
 
 
 .line {
-  width: 13px;
+  width: 16px;
   height: 100px;
   background-color: #1b2f47;
   border-radius: 15px;
@@ -134,7 +144,7 @@ body {
 .line::after {
   content: "";
   position: absolute;
-  width: 13px;
+  width: 16px;
   height: 30px;
   background-color: #1b2f47;
   border-radius: 15px;
@@ -147,71 +157,63 @@ body {
 
 .line_left {
   left: -22px;
-  top: 47px;
+  top: 50px;
 }
 
 .line_left::after {
  left: 0;
-  top: 107px;
+  top: 105px;
 }
 
 .line_middle {
   left: 27px;
-    top: 91px;
+    top: 95px;
 }
 
 .line_middle::after {
  left: 0;
-  top: 107px;
+  top: 105px;
   height: 38px;
 }
 
 .line_right {
   left: 77px;
-  top: 47px;
+  top: 50px;
   height: 100px;
 
 }
 
 .line_right::after {
  left: 0;
-  top: 107px;
+  top: 105px;
 }
 
 .heart_3 {
-  top: 195px;
+  top: 255px;
   left: 300px;
 }
 
 .heart_3 .line_left {
-  left: -22px;
-  top: 47px;
+  height: 80px;
 }
 
 .heart_3 .line_left::after {
- left: 0;
-  top: 107px;
-}
-
-.heart_3 .line_middle {
-  left: 27px;
-    top: 91px;
+  top: 85px;
 }
 
 .heart_3 .line_middle::after {
- left: 0;
-  top: 107px;
-  height: 38px;
+ display: none;
 }
 
 .heart_3 .line_right {
-  left: 77px;
-  top: 47px;
-  height: 100px;
-
+    top: 67px;
+    height: 85px;
 }
 
 .heart_3 .line_right::after {
- left: 0;
-  top: 107px;
+  top: 90px;
+}
+
+h1 {
+  font-family: chasing_heartsregular;
 }

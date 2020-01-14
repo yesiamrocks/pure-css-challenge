@@ -123,7 +123,7 @@ body {
 
 
 .line {
-  width: 13px;
+  width: 16px;
   height: 100px;
   background-color: #1b2f47;
   border-radius: 15px;
@@ -134,7 +134,7 @@ body {
 .line::after {
   content: "";
   position: absolute;
-  width: 13px;
+  width: 16px;
   height: 30px;
   background-color: #1b2f47;
   border-radius: 15px;
@@ -152,7 +152,7 @@ body {
 
 .line_left::after {
  left: 0;
-  top: 107px;
+  top: 105px;
 }
 
 .line_middle {
@@ -184,34 +184,22 @@ body {
 }
 
 .heart_3 .line_left {
-  left: -22px;
-  top: 47px;
+  height: 80px;
 }
 
 .heart_3 .line_left::after {
- left: 0;
-  top: 107px;
-}
-
-.heart_3 .line_middle {
-  left: 27px;
-    top: 91px;
+  top: 87px;
 }
 
 .heart_3 .line_middle::after {
- left: 0;
-  top: 107px;
-  height: 38px;
+ display: none;
 }
 
 .heart_3 .line_right {
-  left: 77px;
-  top: 47px;
-  height: 100px;
-
+    top: 67px;
+    height: 70px;
 }
 
 .heart_3 .line_right::after {
- left: 0;
-  top: 107px;
+  top: 75px;
 }

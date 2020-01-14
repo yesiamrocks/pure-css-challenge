@@ -162,7 +162,7 @@ body {
 
 .line_middle::after {
  left: 0;
-  top: 107px;
+  top: 105px;
   height: 38px;
 }
 
@@ -175,7 +175,7 @@ body {
 
 .line_right::after {
  left: 0;
-  top: 107px;
+  top: 105px;
 }
 
 .heart_3 {

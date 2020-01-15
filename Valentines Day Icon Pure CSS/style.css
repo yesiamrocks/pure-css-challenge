@@ -194,9 +194,8 @@ body {
 }
 
 .heart_2 .line_left {
-  height: 80px;
   left: 0px;
-  top: 60px;
+  top: 70px;
 }
 
 .heart_2 .line {
@@ -205,6 +204,17 @@ body {
 
 .heart_2 .line:after {
   background-color: #DE1D42;
+}
+
+.heart_2 .line_middle {
+  left: 51px;
+  top: 125px;
+ }
+
+ .line_right {
+  left: 101px;
+  top: 71px;
+  height: 100px;
 }
 
 .heart_3 {

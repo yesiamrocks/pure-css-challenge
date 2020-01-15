@@ -189,9 +189,14 @@ body {
 }
 
 .heart_2 {
-  top: 255px;
-  left: 300px;
+  top: 155px;
+  left: 170px;
 }
+
+.heart_2 .line_left {
+  height: 80px;
+}
+
 
 .heart_3 {
   top: 255px;

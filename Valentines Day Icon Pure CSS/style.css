@@ -1,252 +1,211 @@
 :root {
-  --soft-dark-color: #1b2f47;
-  --main-bg-color: black;
+	--soft-dark-color: #1b2f47;
+	--main-bg-color: black;
 }
-
 @font-face {
-    font-family: 'chasing_heartsregular';
-    src: url('fonts/chasing_hearts.woff2') format('woff2'),
-         url('fonts/chasing_hearts.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'chasing_heartsregular';
+	src: url('fonts/chasing_hearts.woff2') format('woff2'), url('fonts/chasing_hearts.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
-
 body {
-  background-color: #ffffff;
-  text-align: center;
+	background-color: #ffffff;
+	text-align: center;
 }
-
-
 .absolute {
-  position: absolute;
+	position: absolute;
 }
-
 .artwork {
-  width: 430px;
-  height: 615px;
-  position: relative;
-  margin: 0 auto;
-  overflow: hidden;
+	width: 430px;
+	height: 615px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
 }
 .browser {
-  border: 12px solid var(--soft-dark-color);
-  width: 100%;
-  height: 318px;
-  border-radius: 40px;
-  top: 0;
-  left: 0;
-  box-sizing: border-box;
+	border: 12px solid var(--soft-dark-color);
+	width: 100%;
+	height: 318px;
+	border-radius: 40px;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
 }
-
 .browser__menubar {
-  width: 100%;
-  height: 60px;
-  overflow: hidden;
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
 }
-
 .browser__menubar::before,
 .browser__menubar::after {
-  content: "";
-  position: absolute;
-  top: 46px;
-  width: 90%;
-  height: 12px;
-  background-color: var(--soft-dark-color);
+	content: "";
+	position: absolute;
+	top: 46px;
+	width: 90%;
+	height: 12px;
+	background-color: var(--soft-dark-color);
 }
-
 .browser__menubar::before {
-  left: 0;
-  width: 87%;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
+	left: 0;
+	width: 87%;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
-
 .browser__menubar::after {
-  right: 0;
-  width: 10%;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+	right: 0;
+	width: 10%;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
 }
-
 .browser__menubar_icon {
-  top: 16px;
-  left: 16px;
-  width: 18px;
-  height: 18px;
-  background-color: var(--soft-dark-color);
-  border-radius: 50%;
+	top: 16px;
+	left: 16px;
+	width: 18px;
+	height: 18px;
+	background-color: var(--soft-dark-color);
+	border-radius: 50%;
 }
-
 .browser__menubar_icon::before,
 .browser__menubar_icon::after {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 25px;
-  width: 18px;
-  height: 18px;
-  background-color: var(--soft-dark-color);
-  border-radius: 50%;
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 25px;
+	width: 18px;
+	height: 18px;
+	background-color: var(--soft-dark-color);
+	border-radius: 50%;
 }
-
 .browser__menubar_icon::after {
-  left: 50px;
-  width: 18px;
-  height: 18px;
-  background-color: var(--soft-dark-color);
-  border-radius: 50%;
+	left: 50px;
+	width: 18px;
+	height: 18px;
+	background-color: var(--soft-dark-color);
+	border-radius: 50%;
 }
-
-
 .heart_fill {
-  top: 0;
-  left: 0;
-  margin: auto;
-  background-color: #1b2f47;
-  height: 60px;
-  width: 60px;
-  transform: rotate(-45deg);
+	top: 0;
+	left: 0;
+	margin: auto;
+	background-color: #1b2f47;
+	height: 60px;
+	width: 60px;
+	transform: rotate(-45deg);
 }
 .heart_fill::after {
-  content: "";
-  background-color: #1b2f47;
-  content: "";
-  border-radius: 50%;
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  top: 0px;
-  left: 36px;
+	content: "";
+	background-color: #1b2f47;
+	content: "";
+	border-radius: 50%;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	top: 0px;
+	left: 36px;
 }
 .heart_fill::before {
-  content: "";
-  background-color: #1b2f47;
-  border-radius: 50%;
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  top: -36px;
-  left: 0px;
+	content: "";
+	background-color: #1b2f47;
+	border-radius: 50%;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	top: -36px;
+	left: 0px;
 }
-
-
-
 .line {
-  width: 14px;
-  height: 100px;
-  background-color: #1b2f47;
-  border-radius: 15px;
-  left: -22px;
-  top: 47px;
+	width: 14px;
+	height: 100px;
+	background-color: #1b2f47;
+	border-radius: 15px;
+	left: -22px;
+	top: 47px;
 }
-
 .line::after {
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 30px;
-  background-color: #1b2f47;
-  border-radius: 15px;
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 30px;
+	background-color: #1b2f47;
+	border-radius: 15px;
 }
-
 .heart_1 {
-  top: 195px;
-  left: 60px;
+	top: 195px;
+	left: 60px;
 }
-
 .line_left {
-  left: -22px;
-  top: 50px;
+	left: -22px;
+	top: 50px;
 }
 #love {
-  transform: scale(.98);
+	transform: scale(.98);
 }
 .line_left::after {
- left: 0;
-  top: 105px;
+	left: 0;
+	top: 105px;
 }
-
 .line_middle {
-  left: 27px;
-    top: 95px;
+	left: 27px;
+	top: 95px;
 }
-
 .line_middle::after {
- left: 0;
-  top: 105px;
-  height: 38px;
+	left: 0;
+	top: 105px;
+	height: 38px;
 }
-
 .line_right {
-  left: 77px;
-  top: 50px;
-  height: 100px;
-
+	left: 77px;
+	top: 50px;
+	height: 100px;
 }
-
 .line_right::after {
- left: 0;
-  top: 105px;
+	left: 0;
+	top: 105px;
 }
-
 .heart_2 {
-  top: 115px;
-  left: 170px;
+	top: 115px;
+	left: 170px;
 }
-
 .heart_2 .line_left {
-  left: 0px;
-  top: 70px;
+	left: 0px;
+	top: 70px;
 }
-
 .heart_2 .line {
-  background-color: #DE1D42;
+	background-color: #DE1D42;
 }
-
 .heart_2 .line:after {
-  background-color: #DE1D42;
+	background-color: #DE1D42;
 }
-
 .heart_2 .line_middle {
-  left: 51px;
-  top: 125px;
- }
-
- .heart_2  .line_right {
-  left: 101px;
-  top: 71px;
+	left: 51px;
+	top: 125px;
 }
-
+.heart_2 .line_right {
+	left: 101px;
+	top: 71px;
+}
 .heart_3 {
-  top: 255px;
-  left: 327px;
-
+	top: 255px;
+	left: 327px;
 }
-
 .heart_3 .line_left {
-  height: 80px;
+	height: 80px;
 }
-
 .heart_3 .line_left::after {
-  top: 85px;
+	top: 85px;
 }
-
 .heart_3 .line_middle::after {
- display: none;
+	display: none;
 }
-
 .heart_3 .line_right {
-    top: 67px;
-    height: 85px;
+	top: 67px;
+	height: 85px;
 }
-
 .heart_3 .line_right::after {
-  top: 90px;
+	top: 90px;
 }
-
 h1 {
-  font-family: chasing_heartsregular;
-  font-size: 60px;
-  color: #df003f;
+	font-family: chasing_heartsregular;
+	font-size: 60px;
+	color: #df003f;
 }

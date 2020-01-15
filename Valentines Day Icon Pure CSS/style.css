@@ -195,8 +195,17 @@ body {
 
 .heart_2 .line_left {
   height: 80px;
+  left: 0px;
+  top: 60px;
 }
 
+.heart_2 .line {
+  background-color: #DE1D42;
+}
+
+.heart_2 .line:after {
+  background-color: #DE1D42;
+}
 
 .heart_3 {
   top: 255px;

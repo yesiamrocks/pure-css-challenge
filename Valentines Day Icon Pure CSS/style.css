@@ -104,8 +104,8 @@ body {
   left: 0;
   margin: auto;
   background-color: #1b2f47;
-  height: 70px;
-  width: 70px;
+  height: 65px;
+  width: 65px;
   transform: rotate(-45deg);
 }
 .heart_fill::after {
@@ -114,8 +114,8 @@ body {
   content: "";
   border-radius: 50%;
   position: absolute;
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   top: 0px;
   left: 36px;
 }
@@ -124,8 +124,8 @@ body {
   background-color: #1b2f47;
   border-radius: 50%;
   position: absolute;
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   top: -36px;
   left: 0px;
 }

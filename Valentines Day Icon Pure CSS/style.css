@@ -159,7 +159,9 @@ body {
   left: -22px;
   top: 50px;
 }
-
+#love {
+  transform: scale(.98);
+}
 .line_left::after {
  left: 0;
   top: 105px;

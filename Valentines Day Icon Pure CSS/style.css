@@ -1,3 +1,4 @@
+* {box-sizing: border-box;}
 :root {
 	--soft-dark-color: #1b2f47;
 	--main-bg-color: black;
@@ -29,7 +30,6 @@ body {
 	border-radius: 40px;
 	top: 0;
 	left: 0;
-	box-sizing: border-box;
 }
 .browser__menubar {
 	width: 100%;

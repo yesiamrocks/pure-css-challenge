@@ -30,7 +30,7 @@ body {
 }
 .artwork {
 	width: 446px;
-	height: 615px;
+	height: 625px;
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
@@ -242,5 +242,7 @@ h2 {
 	color: #afafaf;
     font-family: 'FeelingLovely';
     font-weight: 400;
-    font-size: 30px;
+	font-size: 40px;
+    top: 41px;
+    left: 70px;
 }

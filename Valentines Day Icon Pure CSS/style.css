@@ -90,7 +90,6 @@ body {
 .heart__container {
 	top: 120px;
     height: 347px;
-    border: red 1px solid;
     width: 100%;
 }
 .heart_fill {
@@ -223,7 +222,13 @@ h1 {
 .title {
     width: 100%;
     height: 100px;
-	border: 1px solid;
-	top: 500px;
+	top: 500px;	
+}
+
+h1 {
 	font-weight: 400;
+}
+
+h2 {
+	color: #afafaf;
 }

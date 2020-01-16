@@ -91,23 +91,23 @@ body {
 }
 .heart_fill {
 	top: 0;
-	left: 0;
-	margin: auto;
-	background-color: #1b2f47;
-	height: 60px;
-	width: 60px;
-	transform: rotate(-45deg);
+    left: 0;
+    margin: auto;
+    background-color: #1b2f47;
+    height: 63px;
+    width: 63px;
+    transform: rotate(-45deg);
 }
 .heart_fill::after {
 	content: "";
-	background-color: #1b2f47;
-	content: "";
-	border-radius: 50%;
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	top: 0px;
-	left: 36px;
+    background-color: #1b2f47;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    top: 0px;
+    left: 35px;
 }
 .heart_fill::before {
 	content: "";

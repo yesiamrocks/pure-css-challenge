@@ -26,9 +26,7 @@ body {
 	background-color: #ffffff;
 	text-align: center;
 }
-.absolute {
-	position: absolute;
-}
+.absolute {position: absolute;}
 .artwork {
 	width: 446px;
 	height: 625px;
@@ -37,6 +35,7 @@ body {
 	overflow: hidden;
 	margin-top: 100px;
 }
+/*======== Web browser ========*/
 .browser {
 	border: 12px solid var(--soft-dark-color);
 	width: 100%;
@@ -97,6 +96,7 @@ body {
 	background-color: var(--soft-dark-color);
 	border-radius: 50%;
 }
+/*======== Web browser ========*/
 .heart__container {
 	top: 120px;
     height: 347px;

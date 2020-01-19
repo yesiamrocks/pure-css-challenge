@@ -106,14 +106,14 @@ body {
 	top: 0;
     left: 0;
     margin: auto;
-    background-color: #1b2f47;
+    background-color:var(--soft-dark-color);
     height: 63px;
     width: 63px;
     transform: rotate(-45deg);
 }
 .heart_fill::after {
 	content: "";
-    background-color: #1b2f47;
+    background-color: var(--soft-dark-color);
     content: "";
     border-radius: 50%;
     position: absolute;
@@ -124,7 +124,7 @@ body {
 }
 .heart_fill::before {
 	content: "";
-    background-color: #1b2f47;
+    background-color: var(--soft-dark-color);
     border-radius: 50%;
     position: absolute;
     width: 63px;
@@ -135,7 +135,7 @@ body {
 .line {
 	width: 14px;
 	height: 100px;
-	background-color: #1b2f47;
+	background-color: var(--soft-dark-color);
 	border-radius: 15px;
 	left: -22px;
 	top: 47px;
@@ -145,7 +145,7 @@ body {
 	position: absolute;
 	width: 14px;
 	height: 30px;
-	background-color: #1b2f47;
+	background-color: var(--soft-dark-color);
 	border-radius: 15px;
 }
 .heart_1 {

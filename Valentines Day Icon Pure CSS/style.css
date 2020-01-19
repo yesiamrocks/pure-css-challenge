@@ -167,10 +167,7 @@ body {
 	top: 50px;
 }
 
-.line_left::after {
-	left: 0;
-	top: 105px;
-}
+.line_left::after {left: 0;	top: 105px;}
 .line_middle {left: 24px; top: 85px;}
 .line_middle::after {
 	left: 0;

@@ -155,7 +155,6 @@ body {background-color: #ffffff; text-align: center;}
 /*======== Heart 1 Customization CSS Start ========*/
 .heart_1 {top: 100px; left: 60px;}
 .line_left {left: -22px; top: 50px;}
-
 .line_left::after {left: 0;	top: 105px;}
 .line_middle {left: 24px; top: 85px;}
 .line_middle::after {
@@ -175,9 +174,7 @@ body {background-color: #ffffff; text-align: center;}
 .heart_2 {top: 0; left: 170px;}
 .heart_2 .line_left {left: 0px; top: 70px;}
 .heart_2 .line {background-color: var(--color-of-love); height: 108px;}
-.heart_2 .line:after {
-	background-color: var(--color-of-love);
-}
+.heart_2 .line:after {background-color: var(--color-of-love);}
 .heart_2 .line_middle {
 	left: 55px;
 	top: 120px;
@@ -188,9 +185,7 @@ body {background-color: #ffffff; text-align: center;}
 	top: 71px;
 	height: 132px;
 }
-
 .heart_2 .line_right::after {top: 140px;}
-
 .heart_2 .line_right::before {
 	content: "";
     position: absolute;
@@ -201,9 +196,7 @@ body {background-color: #ffffff; text-align: center;}
     left: 0;
     top: 173px;
 }
-
 .heart_2 .line_left::after {height: 42px; top: 114px;}
-
 .heart_2 .line_left::before {
 	content: "";
     position: absolute;
@@ -234,15 +227,12 @@ h1 {
 	font-size: 60px;
 	color: var(--color-of-love);
 }
-
 .title {
     width: 100%;
     height: 100px;
 	top: 500px;	
 }
-
 h1 {font-weight: 400;}
-
 h2 {
 	color: #afafaf;
     font-family: 'FeelingLovely';

@@ -35,7 +35,7 @@ body {
 	overflow: hidden;
 	margin-top: 100px;
 }
-/*======== Web browser ========*/
+/*======== Web Browser Start ========*/
 .browser {
 	border: 12px solid var(--soft-dark-color);
 	width: 100%;
@@ -96,7 +96,8 @@ body {
 	background-color: var(--soft-dark-color);
 	border-radius: 50%;
 }
-/*======== Web browser ========*/
+/*======== Web Browser End ========*/
+/*======== Heart Fill Color Start ========*/
 .heart__container {
 	top: 120px;
     height: 347px;
@@ -132,6 +133,7 @@ body {
     top: -35px;
     left: 0px;
 }
+/*======== Heart Fill Color End ========*/
 .line {
 	width: 14px;
 	height: 100px;

@@ -207,8 +207,20 @@ body {
 }
 
 .heart_2 .line_right::after {
-	top: 137px;
-    height: 26px;
+	left: 108px;
+	top: 71px;
+	height: 132px;
+}
+
+.heart_2 .line_right::before {
+	content: "";
+    position: absolute;
+    width: 14px;
+    height: 65px;
+    background-color: #DE1D42;
+    border-radius: 15px;
+    left: 0;
+    top: 163px;
 }
 
 .heart_2 .line_left::after {

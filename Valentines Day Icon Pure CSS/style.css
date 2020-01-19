@@ -184,21 +184,21 @@ body {
 	top: 0;
 	left: 170px;
 }
-.line_left_1 {
+.heart_2 .line_left {
 	left: 0px;
 	top: 70px;
 }
 .heart_2 .line {
 	background-color: #DE1D42;
 }
-.line:after {
+.heart_2 .line:after {
 	background-color: #DE1D42;
 }
-.line_middle_2 {
+.heart_2 .line_middle {
 	left: 55px;
     top: 120px;
 }
-.line_right_3 {
+.heart_2 .line_right {
 	left: 101px;
 	top: 71px;
 }

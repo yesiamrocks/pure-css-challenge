@@ -5,6 +5,7 @@
 :root {
 	--soft-dark-color: #1b2f47;
 	--main-bg-color: black;
+	--color-of-love: #DE1D42;
 }
 @font-face {
 	font-family: 'chasing_heartsregular';
@@ -189,11 +190,11 @@ body {
 	top: 70px;
 }
 .heart_2 .line {
-	background-color: #DE1D42;
+	background-color: var(--color-of-love);
 	height: 108px;
 }
 .heart_2 .line:after {
-	background-color: #DE1D42;
+	background-color: var(--color-of-love);
 }
 .heart_2 .line_middle {
 	left: 55px;
@@ -215,7 +216,7 @@ body {
     position: absolute;
     width: 14px;
 	height: 68px;
-    background-color: #DE1D42;
+    background-color: var(--color-of-love);
     border-radius: 15px;
     left: 0;
     top: 173px;
@@ -231,7 +232,7 @@ body {
     position: absolute;
     width: 14px;
     height: 65px;
-    background-color: #DE1D42;
+    background-color: var(--color-of-love);
     border-radius: 15px;
     left: 0;
     top: 163px;
@@ -260,7 +261,7 @@ body {
 h1 {
 	font-family: chasing_heartsregular;
 	font-size: 60px;
-	color: #df003f;
+	color: var(--color-of-love);
 }
 
 .title {

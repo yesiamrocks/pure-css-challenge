@@ -190,6 +190,7 @@ body {
 }
 .heart_2 .line {
 	background-color: #DE1D42;
+	height: 108px;
 }
 .heart_2 .line:after {
 	background-color: #DE1D42;
@@ -204,7 +205,8 @@ body {
 }
 
 .heart_2 .line_left::after {
-    height: 38px
+	height: 48px;
+    top: 114px;
 }
 
 .heart_2 .line_left::before {

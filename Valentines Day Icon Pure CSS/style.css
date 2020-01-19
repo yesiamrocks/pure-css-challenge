@@ -207,9 +207,8 @@ body {
 }
 
 .heart_2 .line_right::after {
-	left: 108px;
-	top: 71px;
-	height: 132px;
+	top: 137px;
+    height: 26px;
 }
 
 .heart_2 .line_left::after {

@@ -156,6 +156,8 @@ body {
 	border-radius: 15px;
 }
 /*======== Rain Line End ========*/
+
+/*======== Heart 1 Customization CSS Start ========*/
 .heart_1 {
 	top: 100px;
 	left: 60px;
@@ -187,6 +189,7 @@ body {
 	left: 0;
 	top: 105px;
 }
+/*======== Heart 1 Customization CSS END ========*/
 .heart_2 {
 	top: 0;
 	left: 170px;

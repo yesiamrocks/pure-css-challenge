@@ -230,11 +230,11 @@ body {
 	content: "";
     position: absolute;
     width: 14px;
-    height: 65px;
+	height: 68px;
     background-color: #DE1D42;
     border-radius: 15px;
     left: 0;
-    top: 163px;
+    top: 173px;
 }
 
 .heart_3 {

@@ -197,7 +197,8 @@ body {
 }
 .heart_2 .line_middle {
 	left: 55px;
-    top: 120px;
+	top: 120px;
+	height: 98px;
 }
 .heart_2 .line_right {
 	left: 101px;

@@ -103,6 +103,9 @@ body {
     height: 347px;
     width: 100%;
 }
+#love {
+	transform: scale(.98);
+}
 .heart_fill {
 	top: 0;
     left: 0;
@@ -135,7 +138,7 @@ body {
 }
 /*======== Heart Fill Color End ========*/
 
-/*======== Raining Start ========*/
+/*======== Rain Line Start ========*/
 .line {
 	width: 14px;
 	height: 100px;
@@ -152,6 +155,7 @@ body {
 	background-color: var(--soft-dark-color);
 	border-radius: 15px;
 }
+/*======== Rain Line End ========*/
 .heart_1 {
 	top: 100px;
 	left: 60px;
@@ -160,9 +164,7 @@ body {
 	left: -22px;
 	top: 50px;
 }
-#love {
-	transform: scale(.98);
-}
+
 .line_left::after {
 	left: 0;
 	top: 105px;

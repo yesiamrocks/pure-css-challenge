@@ -212,7 +212,7 @@ body {
 	height: 132px;
 }
 
-.heart_2 .line_right::before {
+.heart_2 .line_left::before {
 	content: "";
     position: absolute;
     width: 14px;

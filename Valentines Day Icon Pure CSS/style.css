@@ -22,10 +22,7 @@
 	font-style: normal;
   }
   
-body {
-	background-color: #ffffff;
-	text-align: center;
-}
+body {background-color: #ffffff; text-align: center;}
 .absolute {position: absolute;}
 .artwork {
 	width: 446px;
@@ -103,9 +100,7 @@ body {
     height: 347px;
     width: 100%;
 }
-#love {
-	transform: scale(.98);
-}
+#love {transform: scale(.98);}
 .heart_fill {
 	top: 0;
     left: 0;
@@ -158,14 +153,8 @@ body {
 /*======== Rain Line End ========*/
 
 /*======== Heart 1 Customization CSS Start ========*/
-.heart_1 {
-	top: 100px;
-	left: 60px;
-}
-.line_left {
-	left: -22px;
-	top: 50px;
-}
+.heart_1 {top: 100px; left: 60px;}
+.line_left {left: -22px; top: 50px;}
 
 .line_left::after {left: 0;	top: 105px;}
 .line_middle {left: 24px; top: 85px;}

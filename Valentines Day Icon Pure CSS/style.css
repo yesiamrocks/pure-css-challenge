@@ -207,12 +207,10 @@ body {
 }
 
 .heart_2 .line_right::after {
-	left: 108px;
-	top: 71px;
-	height: 132px;
+	top: 140px;
 }
 
-.heart_2 .line_left::before {
+/* .heart_2 .line_right::before {
 	content: "";
     position: absolute;
     width: 14px;
@@ -221,7 +219,7 @@ body {
     border-radius: 15px;
     left: 0;
     top: 163px;
-}
+} */
 
 .heart_2 .line_left::after {
 	height: 42px;

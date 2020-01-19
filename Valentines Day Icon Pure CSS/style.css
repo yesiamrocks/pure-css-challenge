@@ -208,13 +208,14 @@ body {
 }
 
 .heart_2 .line_left::before {
-    height: 38px;
-    content: "";
-  position: absolute;
-  width: 14px;
-  height: 30px;
-  background-color: #1b2f47;
-  border-radius: 15px;
+	content: "";
+    position: absolute;
+    width: 14px;
+    height: 30px;
+    background-color: #1b2f47;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
 }
 
 .heart_3 {

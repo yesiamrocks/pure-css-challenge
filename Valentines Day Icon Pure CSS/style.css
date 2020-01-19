@@ -171,10 +171,7 @@ body {
 	left: 0;
 	top: 105px;
 }
-.line_middle {
-	left: 24px;
-	top: 85px;
-}
+.line_middle {left: 24px; top: 85px;}
 .line_middle::after {
 	left: 0;
 	top: 105px;
@@ -185,25 +182,13 @@ body {
 	top: 50px;
 	height: 100px;
 }
-.line_right::after {
-	left: 0;
-	top: 105px;
-}
+.line_right::after {left: 0; top: 105px;}
 /*======== Heart 1 Customization CSS END ========*/
 
 /*======== Heart 2 Customization CSS Start ========*/
-.heart_2 {
-	top: 0;
-	left: 170px;
-}
-.heart_2 .line_left {
-	left: 0px;
-	top: 70px;
-}
-.heart_2 .line {
-	background-color: var(--color-of-love);
-	height: 108px;
-}
+.heart_2 {top: 0; left: 170px;}
+.heart_2 .line_left {left: 0px; top: 70px;}
+.heart_2 .line {background-color: var(--color-of-love); height: 108px;}
 .heart_2 .line:after {
 	background-color: var(--color-of-love);
 }
@@ -218,9 +203,7 @@ body {
 	height: 132px;
 }
 
-.heart_2 .line_right::after {
-	top: 140px;
-}
+.heart_2 .line_right::after {top: 140px;}
 
 .heart_2 .line_right::before {
 	content: "";
@@ -233,10 +216,7 @@ body {
     top: 173px;
 }
 
-.heart_2 .line_left::after {
-	height: 42px;
-    top: 114px;
-}
+.heart_2 .line_left::after {height: 42px; top: 114px;}
 
 .heart_2 .line_left::before {
 	content: "";
@@ -251,26 +231,15 @@ body {
 /*======== Heart 2 Customization CSS END ========*/
 
 /*======== Heart 3 Customization CSS Start ========*/
-.heart_3 {
-	top: 155px;
-	left: 332px;
-}
-.heart_3 .line_left {
-	height: 80px;
-}
-.heart_3 .line_left::after {
-	top: 85px;
-}
-.heart_3 .line_middle::after {
-	display: none;
-}
+.heart_3 {top: 155px; left: 332px;}
+.heart_3 .line_left {Height: 80px;}
+.heart_3 .line_left::after {top: 85px;}
+.heart_3 .line_middle::after {display: none;}
 .heart_3 .line_right {
 	top: 67px;
 	height: 85px;
 }
-.heart_3 .line_right::after {
-	top: 90px;
-}
+.heart_3 .line_right::after {top: 90px;}
 /*======== Heart 3 Customization CSS END ========*/
 
 /*======== All Copy ========*/
@@ -286,9 +255,7 @@ h1 {
 	top: 500px;	
 }
 
-h1 {
-	font-weight: 400;
-}
+h1 {font-weight: 400;}
 
 h2 {
 	color: #afafaf;
@@ -298,5 +265,4 @@ h2 {
     top: 51px;
     left: 25px;
 }
-
 /*======== All Copy ========*/

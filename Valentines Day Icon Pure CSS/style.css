@@ -214,11 +214,11 @@ body {
 	content: "";
     position: absolute;
     width: 14px;
-    height: 65px;
+	height: 68px;
     background-color: #DE1D42;
     border-radius: 15px;
     left: 0;
-    top: 163px;
+    top: 173px;
 }
 
 .heart_2 .line_left::after {
@@ -230,16 +230,16 @@ body {
 	content: "";
     position: absolute;
     width: 14px;
-	height: 68px;
+    height: 65px;
     background-color: #DE1D42;
     border-radius: 15px;
     left: 0;
-    top: 173px;
+    top: 163px;
 }
 
 .heart_3 {
 	top: 155px;
-	left: 327px;
+	left: 332px;
 }
 .heart_3 .line_left {
 	height: 80px;

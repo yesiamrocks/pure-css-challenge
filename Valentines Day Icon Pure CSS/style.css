@@ -190,6 +190,8 @@ body {
 	top: 105px;
 }
 /*======== Heart 1 Customization CSS END ========*/
+
+/*======== Heart 2 Customization CSS Start ========*/
 .heart_2 {
 	top: 0;
 	left: 170px;
@@ -246,7 +248,9 @@ body {
     left: 0;
     top: 163px;
 }
+/*======== Heart 2 Customization CSS END ========*/
 
+/*======== Heart 3 Customization CSS Start ========*/
 .heart_3 {
 	top: 155px;
 	left: 332px;
@@ -267,6 +271,9 @@ body {
 .heart_3 .line_right::after {
 	top: 90px;
 }
+/*======== Heart 3 Customization CSS END ========*/
+
+/*======== All Copy ========*/
 h1 {
 	font-family: chasing_heartsregular;
 	font-size: 60px;
@@ -291,3 +298,5 @@ h2 {
     top: 51px;
     left: 25px;
 }
+
+/*======== All Copy ========*/

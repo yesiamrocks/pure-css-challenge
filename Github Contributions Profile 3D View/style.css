@@ -1,0 +1,9 @@
+* {
+	box-sizing: border-box;
+	margin: 0; padding: 0;
+}
+:root {
+	--soft-dark-color: #1b2f47;
+	--main-bg-color: black;
+	--color-of-love: #DE1D42;
+}

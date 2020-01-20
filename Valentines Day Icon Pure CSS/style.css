@@ -9,7 +9,7 @@
 }
 @font-face {
 	font-family: 'chasing_heartsregular';
-	src: url('http://yesiam.rocks/pure-css-challenge/valentines-day-icon/fonts/chasing_hearts.woff2') format('woff2'), url('http://yesiam.rocks/pure-css-challenge/valentines-day-icon/fonts/chasing_hearts.woff') format('woff');
+	src: url('fonts/chasing_hearts.woff2') format('woff2'), url('fonts/chasing_hearts.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }

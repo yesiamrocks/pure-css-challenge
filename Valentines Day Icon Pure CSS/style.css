@@ -7,6 +7,21 @@
 	--main-bg-color: black;
 	--color-of-love: #DE1D42;
 }
+@font-face {
+	font-family: 'chasing_heartsregular';
+	src: url('http://yesiam.rocks/pure-css-challenge/valentines-day-icon/fonts/chasing_hearts.woff2') format('woff2'), url('http://yesiam.rocks/pure-css-challenge/valentines-day-icon/fonts/chasing_hearts.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'FeelingLovely';
+	src: url('fonts/FeelingLovely.eot?#iefix') format('embedded-opentype'),  url('fonts/FeelingLovely.woff') format('woff'), url('fonts/FeelingLovely.ttf')  format('truetype'), url('fonts/FeelingLovely.svg#FeelingLovely') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
 body {background-color: #ffffff; text-align: center;}
 .absolute {position: absolute;}
 .artwork {
@@ -208,7 +223,7 @@ body {background-color: #ffffff; text-align: center;}
 
 /*======== All Copy ========*/
 h1 {
-	font-family: 'Pacifico', cursive;
+	font-family: chasing_heartsregular;
 	font-size: 60px;
 	color: var(--color-of-love);
 }
@@ -220,7 +235,7 @@ h1 {
 h1 {font-weight: 400;}
 h2 {
 	color: #afafaf;
-    font-family: 'Pacifico', cursive;
+    font-family: 'FeelingLovely';
     font-weight: 400;
     font-size: 32px;
     top: 51px;

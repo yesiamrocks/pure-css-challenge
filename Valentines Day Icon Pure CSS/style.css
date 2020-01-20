@@ -223,7 +223,7 @@ body {background-color: #ffffff; text-align: center;}
 
 /*======== All Copy ========*/
 h1 {
-	font-family: chasing_heartsregular;
+	font-family: 'Pacifico', cursive;
 	font-size: 60px;
 	color: var(--color-of-love);
 }
@@ -235,7 +235,7 @@ h1 {
 h1 {font-weight: 400;}
 h2 {
 	color: #afafaf;
-    font-family: 'FeelingLovely';
+    font-family: 'Pacifico', cursive;
     font-weight: 400;
     font-size: 32px;
     top: 51px;

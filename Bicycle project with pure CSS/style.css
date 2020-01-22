@@ -36,3 +36,15 @@ body {
     border: 16px solid white;
     top: 0; left: 0;
 }
+
+.bike-wheel-spoke {
+    position: absolute;
+    width: 113px;
+    height: 3px;
+    top: 69px;
+    left: 14px;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.bike-wheel-spoke_1 {transform: rotate(20deg)}
+.bike-wheel-spoke_2 {transform:rotate(40deg)}

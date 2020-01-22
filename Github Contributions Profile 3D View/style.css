@@ -7,3 +7,8 @@
 	--main-bg-color: black;
 	--color-of-love: #DE1D42;
 }
+
+.wheel {
+	width: 300px;
+	height: 300px;
+}

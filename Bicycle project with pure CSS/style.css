@@ -17,6 +17,7 @@ body {
 	width: 730px;
 	height: 430px;
 	position: relative;
+	    margin: 0 auto;
 }
 .wheel {
 	width: 300px;

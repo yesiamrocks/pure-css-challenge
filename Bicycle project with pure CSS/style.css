@@ -8,6 +8,16 @@
 	--color-of-love: #DE1D42;
 }
 
-body {
-	background-color: #f7d546;
+.position__abs{position: absolute;}
+.bicycle {
+	width: 730px;
+	height: 430px;
+	position: relative;
+}
+.wheel {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: 20px solid black;
+	top: 0; left: 0;
 }

@@ -15,17 +15,24 @@ body {
 .position__abs{position: absolute;}
 .bicycle {
 	width: 730px;
-	height: 430px;
+	height: 810px;
 	position: relative;
-	    margin: 0 auto;
+	 margin: 0 auto;
+}
+.bicycle__wheels {
+	bottom: 0;
+	height: 300px;
+	width: 100%;
 }
 .wheel {
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
 	border: 20px solid black;
-	top: 0; left: 0;
+	
 }
+.wheel__back {top: 0; left: 0;}
+.wheel__front {right: 0; left: unset;}
 
 .wheel:after {
 	content: "";

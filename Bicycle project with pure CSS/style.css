@@ -39,12 +39,35 @@ body {
 
 .bike-wheel-spoke {
     position: absolute;
-    width: 113px;
-    height: 3px;
-    top: 69px;
-    left: 14px;
-    background-color: rgba(255, 255, 255, .3);
+    width: 130px;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+    transform-origin: 100%;
 }
-
-.bike-wheel-spoke_1 {transform: rotate(20deg)}
-.bike-wheel-spoke_2 {transform:rotate(40deg)}
+/*.bike-wheel-spoke:after {
+	content: "";
+    position: absolute;
+}
+*/
+.bike-wheel-spoke_1 {transform: rotate(18deg)}
+.bike-wheel-spoke_2 {transform:rotate(36deg)}
+.bike-wheel-spoke_3 {transform:rotate(54deg)}
+.bike-wheel-spoke_4 {transform:rotate(72deg)}
+.bike-wheel-spoke_5 {transform:rotate(90deg)}
+.bike-wheel-spoke_6 {transform:rotate(108deg)}
+.bike-wheel-spoke_7 {transform:rotate(126deg)}
+.bike-wheel-spoke_8 {transform:rotate(144deg)}
+.bike-wheel-spoke_9 {transform:rotate(162deg)}
+.bike-wheel-spoke_10 {transform:rotate(180deg)}
+.bike-wheel-spoke_11 {transform:rotate(198deg)}
+.bike-wheel-spoke_12 {transform:rotate(216deg)}
+.bike-wheel-spoke_13 {transform:rotate(234deg)}
+.bike-wheel-spoke_14 {transform:rotate(252deg)}
+.bike-wheel-spoke_15 {transform:rotate(270deg)}
+.bike-wheel-spoke_16 {transform:rotate(288deg)}
+.bike-wheel-spoke_17 {transform:rotate(306deg)}
+.bike-wheel-spoke_18 {transform:rotate(324deg)}
+.bike-wheel-spoke_19 {transform:rotate(342deg)}
+.bike-wheel-spoke_20 {transform:rotate(360deg)}

@@ -1,47 +1,63 @@
 * {
-	box-sizing: border-box;
-	margin: 0; padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 :root {
-	--soft-dark-color: #1b2f47;
-	--main-bg-color: black;
-	--color-of-love: #DE1D42;
+    --soft-dark-color: #1b2f47;
+    --main-bg-color: black;
+    --color-of-love: #DE1D42;
 }
 
 body {
-	background-color: #f7d546;
+    background-color: #f7d546;
 }
 
-.position__abs{position: absolute;}
+.position__abs {
+    position: absolute;
+}
+
 .bicycle {
-	width: 730px;
-	height: 810px;
-	position: relative;
-	 margin: 0 auto;
+    width: 730px;
+    height: 810px;
+    position: relative;
+    margin: 0 auto;
 }
+
 .bicycle__wheels {
-	bottom: 0;
-	height: 300px;
-	width: 100%;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
 }
+
 .wheel {
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	border: 20px solid black;
-	
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 20px solid black;
+
 }
-.wheel__back {top: 0; left: 0;}
-.wheel__front {right: 0; left: unset;}
+
+.wheel__back {
+    top: 0;
+    left: 0;
+}
+
+.wheel__front {
+    right: 0;
+    left: unset;
+}
 
 .wheel:after {
-	content: "";
+    content: "";
     position: absolute;
     width: 88%;
     height: 88%;
     border-radius: 50%;
     border: 16px solid white;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
 }
 
 .bike-wheel-spoke {
@@ -52,8 +68,9 @@ body {
     left: 0;
     background-color: rgba(255, 255, 255, 1);
 }
+
 .bike-wheel-spoke:after {
-	content: "";
+    content: "";
     position: absolute;
     width: 100%;
     height: 1px;
@@ -64,7 +81,7 @@ body {
 }
 
 .bike-wheel-spoke:before {
-	content: "";
+    content: "";
     position: absolute;
     width: 100%;
     height: 1px;
@@ -73,10 +90,24 @@ body {
     background-color: rgba(255, 255, 255, 1);
     transform: rotate(36deg)
 }
-.bike-wheel-spoke_2 {transform:rotate(54deg)}
-.bike-wheel-spoke_3 {transform:rotate(108deg)}
-.bike-wheel-spoke_4 {transform:rotate(162deg)}
-.bike-wheel-spoke_4:before, .bike-wheel-spoke_4:after { display:none;}
+
+.bike-wheel-spoke_2 {
+    transform: rotate(54deg)
+}
+
+.bike-wheel-spoke_3 {
+    transform: rotate(108deg)
+}
+
+.bike-wheel-spoke_4 {
+    transform: rotate(162deg)
+}
+
+.bike-wheel-spoke_4:before,
+.bike-wheel-spoke_4:after {
+    display: none;
+}
+
 .bike__frame {
     width: 552px;
     height: 395px;
@@ -85,8 +116,9 @@ body {
     right: 0;
     margin: 0 auto;
     border: 1px solid black;
-    
+
 }
+
 .tube {
     width: 15px;
     background-color: #ee4224;
@@ -94,6 +126,7 @@ body {
     position: absolute;
     border-radius: 40px;
 }
+
 .bike--fork {
     height: 292px;
     transform: rotate(-20deg);
@@ -107,6 +140,7 @@ body {
     left: 108px;
     top: 173px;
 }
+
 .tube--down {
     height: 15px;
     width: 211px;
@@ -114,6 +148,7 @@ body {
     top: 373px;
     transform: rotate(3deg);
 }
+
 .tube--seat {
     height: 309px;
     transform: rotate(-26deg);
@@ -154,6 +189,7 @@ body {
     border-radius: 50px;
     transform: rotate(-18deg);
 }
+
 .grip {
     height: 28px;
     width: 11px;
@@ -163,7 +199,8 @@ body {
     transform: rotate(20deg);
     background: white;
 }
-.grip:after { 
+
+.grip:after {
     content: "";
     border: 6px solid white;
     height: 26px;

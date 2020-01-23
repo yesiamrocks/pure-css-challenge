@@ -109,12 +109,13 @@ body {
 }
 .tube--down {
     height: 15px;
-    width: 208px;
+    width: 211px;
     left: 56px;
-    top: 370px;
+    top: 373px;
+    transform: rotate(3deg);
 }
 .tube--seat {
-    height: 299px;
+    height: 309px;
     transform: rotate(-26deg);
     left: 189px;
     top: 98px;

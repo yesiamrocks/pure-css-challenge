@@ -113,3 +113,9 @@ body {
     left: 56px;
     top: 370px;
 }
+.tube--seat {
+    height: 262px;
+    transform: rotate(30deg);
+    left: 118px;
+    top: 137px;
+}

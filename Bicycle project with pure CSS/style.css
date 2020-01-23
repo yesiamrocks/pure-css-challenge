@@ -105,13 +105,11 @@ body {
     height: 262px;
     transform: rotate(30deg);
     left: 118px;
-    bottom: 0px;
-    
+    top: 137px;
 }
 .tube--down {
-    height: 262px;
-    transform: rotate(180deg);
-    left: 118px;
-    bottom: 0px;
-    
+    height: 15px;
+    width: 200px;
+    left: 56px;
+    top: 370px;
 }

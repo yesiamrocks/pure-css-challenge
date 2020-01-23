@@ -93,10 +93,18 @@ body {
     height: 30px;
     position: absolute;
 }
-.bike__fork {
+.bike--fork {
     height: 262px;
     transform: rotate(-20deg);
     right: 96px;
+    bottom: 0;
+    border-radius: 20px;
+}
+
+.tube--top {
+    height: 262px;
+    transform: rotate(20deg);
+    left: 96px;
     bottom: 0;
     border-radius: 20px;
 }

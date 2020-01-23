@@ -137,9 +137,10 @@ body {
 
 .seat {
     height: 22px;
-    width: 50px;
-    left: 159px;
-    top: 189px;
-    transform: rotate(40deg);
+    width: 90px;
+    left: 89px;
+    top: 112px;
+    transform: rotate(-6deg);
     background-color: white;
+    border-radius: 50px;
 }

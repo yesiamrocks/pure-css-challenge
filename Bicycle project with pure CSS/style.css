@@ -102,10 +102,10 @@ body {
 }
 
 .tube--right {
-    height: 262px;
+    height: 222px;
     transform: rotate(30deg);
-    left: 118px;
-    top: 137px;
+    left: 108px;
+    top: 173px;
 }
 .tube--down {
     height: 15px;

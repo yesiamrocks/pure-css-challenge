@@ -77,8 +77,13 @@ body {
 .bike-wheel-spoke_3 {transform:rotate(108deg)}
 .bike-wheel-spoke_4 {transform:rotate(162deg)}
 .bike-wheel-spoke_4:before, .bike-wheel-spoke_4:after { display:none;}
+.bike__frame {
+    width: 542px;
+    height: 665px;
+}
 .tube {
     width: 15px;
     background-color: #ee4224;
     height: 30px;
+    position: absolute;
 }

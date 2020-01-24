@@ -7,7 +7,7 @@
 :root {
     --dark-color: #231f20;
     --red-color: #ee4224;
-    --white-color: #ee4224;
+    --white-color: #FFF;
 }
 
 body {
@@ -55,7 +55,7 @@ body {
     width: 88%;
     height: 88%;
     border-radius: 50%;
-    border: 16px solid white;
+    border: 16px solid var(--white-color);
     top: 0;
     left: 0;
 }
@@ -66,7 +66,7 @@ body {
     height: 1px;
     top: 50%;
     left: 0;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: var(--white-color);
 }
 
 .bike-wheel-spoke:after {
@@ -76,7 +76,7 @@ body {
     height: 1px;
     top: 50%;
     left: 0;
-    background-color: rgba(255, 255, 255, 1);
+    background-color:  var(--white-color);
     transform: rotate(18deg)
 }
 
@@ -87,7 +87,7 @@ body {
     height: 1px;
     top: 50%;
     left: 0;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: var(--white-color);
     transform: rotate(36deg)
 }
 
@@ -177,7 +177,7 @@ body {
     left: 89px;
     top: 112px;
     transform: rotate(-6deg);
-    background-color: white;
+    background-color: var(--white-color);
     border-radius: 50px;
 }
 

@@ -205,10 +205,10 @@ body {
 
 .grip:before {
     content: "";
-    height: 26px;
-    width: 28px;
-    border-radius: 28px;
-    left: 0px;
+    height: 31px;
+    width: 16px;
+    border-radius: 18px;
+    left: 24px;
     top: 0px;
     position: absolute;
     background-color: white;

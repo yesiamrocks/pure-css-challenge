@@ -5,9 +5,9 @@
 }
 
 :root {
-    --soft-dark-color: #1b2f47;
-    --main-bg-color: black;
-    --color-of-love: #DE1D42;
+    --dark-color: #231f20;
+    --red-color: #ee4224;
+    --white-color: #ee4224;
 }
 
 body {
@@ -35,7 +35,7 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 20px solid black;
+    border: 20px solid var(--dark-color);
 
 }
 
@@ -115,13 +115,13 @@ body {
     left: 0;
     right: 0;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid var(--dark-color);
 
 }
 
 .tube {
     width: 15px;
-    background-color: #ee4224;
+    background-color: var(--red-color);
     height: 30px;
     position: absolute;
     border-radius: 40px;
@@ -186,14 +186,14 @@ body {
     width: 58px;
     left: 383px;
     top: 117px;
-    background-color: #231f20;
+    background-color: var(--dark-color);
     border-radius: 50px;
     transform: rotate(-18deg);
 }
 
 .grip {
     transform: rotate(18deg);
-    border: 10px solid #231f20;
+    border: 10px solid var(--dark-color);
     border-left-color: transparent;
     border-bottom-color: transparent;
     border-radius: 70%;
@@ -211,5 +211,5 @@ body {
     left: 25px;
     top: 28.5px;
     position: absolute;
-    background-color: #231f20;
+    background-color: var(--dark-color);
 }

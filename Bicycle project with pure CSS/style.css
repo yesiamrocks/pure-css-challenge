@@ -192,15 +192,15 @@ body {
 }
 
 .grip {
-    transform: rotate(25deg);
+    transform: rotate(36deg);
     border: 10px solid #231f20;
     border-left-color: transparent;
     border-bottom-color: transparent;
-    border-radius: 60%;
-    width: 40px;
-    height: 40px;
-    top: 112px;
-    right: 83px;
+    border-radius: 70%;
+    width: 50px;
+    height: 56px;
+    top: 111px;
+    right: 86px;
 }
 
 /* .grip:before {

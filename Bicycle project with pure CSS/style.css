@@ -203,14 +203,13 @@ body {
     right: 86px;
 }
 
-/* .grip:before {
+.grip:before {
     content: "";
-    border: 6px solid white;
     height: 26px;
     width: 28px;
     border-radius: 28px;
-    left: 33px;
-    top: -34px;
+    left: 0px;
+    top: 0px;
     position: absolute;
     background-color: white;
-} */
+}

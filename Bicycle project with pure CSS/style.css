@@ -192,7 +192,7 @@ body {
 }
 
 .grip {
-    transform: rotate(36deg);
+    transform: rotate(18deg);
     border: 10px solid #231f20;
     border-left-color: transparent;
     border-bottom-color: transparent;

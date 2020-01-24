@@ -167,7 +167,8 @@ body {
     height: 15px;
     width: 263px;
     left: 159px;
-    top: 189px;
+    top: 179px;
+    transform: rotate(-3deg);
 }
 
 .seat {

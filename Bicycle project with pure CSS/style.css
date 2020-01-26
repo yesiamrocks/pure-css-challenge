@@ -215,7 +215,6 @@ body {
 }
 
 .chain_function {
-    position: absolute;
     width: 290px;
     height: 90px;
     left: 139px;
@@ -232,6 +231,7 @@ body {
 }
 
 .outer__chainring {
+    position: absolute;
     height: 90px;
     width: 90px;
     left: 89px;

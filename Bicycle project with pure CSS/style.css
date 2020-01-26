@@ -231,8 +231,14 @@ body {
     border: 8px solid var(--dark-color);
 }
 
-.bike__crank {
-    
+.outer__chainring {
+    height: 90px;
+    width: 90px;
+    left: 89px;
+    top: 112px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 8px solid var(--dark-color);
 }
 
 .bike__chain {

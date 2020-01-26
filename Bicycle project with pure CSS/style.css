@@ -236,5 +236,10 @@ body {
 }
 
 .bike__chain {
-    
+    position: absolute;
+    width: 290px;
+    height: 5px;
+    left: 139px;
+    bottom: 80px;
+    background-color: var(--dark-color);
 }

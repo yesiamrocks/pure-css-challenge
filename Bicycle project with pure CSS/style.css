@@ -231,14 +231,13 @@ body {
 }
 
 .outer__chainring {
-    position: absolute;
     height: 90px;
     width: 90px;
-    left: 89px;
-    top: 112px;
+    left: 169px;
+    bottom: 0;
     background-color: transparent;
     border-radius: 50px;
-    border: 8px solid var(--dark-color);
+    border: 15px solid var(--dark-color);
 }
 
 .bike__chain {

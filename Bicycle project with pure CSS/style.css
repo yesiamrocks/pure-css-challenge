@@ -223,8 +223,8 @@ body {
 .cassette {
     height: 35px;
     width: 35px;
-    left: 89px;
-    top: 112px;
+    left: 0px;
+    top: 25px;
     background-color: var(--white-color);
     border-radius: 50px;
     border: 8px solid var(--dark-color);

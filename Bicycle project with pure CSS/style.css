@@ -240,6 +240,15 @@ body {
     border: 14px solid var(--dark-color);
 }
 
+.outer__chainring:before {
+    height: 30px;
+    width: 30px;
+    left: 166px;
+    bottom: 0;
+    background-color: var(--white-color);
+    border: 14px solid ;
+}
+
 .bike__chain {
     position: absolute;
     width: 290px;

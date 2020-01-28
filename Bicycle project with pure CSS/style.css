@@ -233,11 +233,11 @@ body {
 .outer__chainring {
     height: 90px;
     width: 90px;
-    left: 169px;
+    left: 166px;
     bottom: 0;
     background-color: transparent;
     border-radius: 50px;
-    border: 15px solid var(--dark-color);
+    border: 14px solid var(--dark-color);
 }
 
 .bike__chain {

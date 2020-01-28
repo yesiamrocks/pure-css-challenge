@@ -241,6 +241,7 @@ body {
 }
 
 .outer__chainring:before {
+    content: "";
     height: 30px;
     width: 30px;
     left: 166px;

@@ -242,11 +242,13 @@ body {
 
 .outer__chainring:before {
     content: "";
-    height: 30px;
-    width: 30px;
-    left: 166px;
-    bottom: 0;
+    height: 34px;
+    width: 34px;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-16px, 16px);
     background-color: var(--white-color);
+    position: absolute;
     border-radius: 50%;
 }
 

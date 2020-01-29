@@ -254,9 +254,10 @@ body {
 
 .bike__chain {
     position: absolute;
-    width: 290px;
-    height: 5px;
-    left: 139px;
-    bottom: 80px;
+    width: 198px;
+    height: 7px;
+    left: 10px;
+    bottom: 72.2px;
     background-color: var(--dark-color);
+    transform: rotate(-5.6deg);
 }

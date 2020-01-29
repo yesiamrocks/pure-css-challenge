@@ -261,3 +261,14 @@ body {
     background-color: var(--dark-color);
     transform: rotate(-5.6deg);
 }
+
+.bike__chain:after {
+    content: "";
+    position: absolute;
+    width: 203px;
+    height: 7px;
+    left: -7px;
+    bottom: -51.8px;
+    background-color: var(--dark-color);
+    transform: rotate(17.1deg);
+}

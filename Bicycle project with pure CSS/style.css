@@ -213,6 +213,14 @@ body {
     position: absolute;
     background-color: var(--dark-color);
 }
+
+.chain_function {
+    position: absolute;
+    width: 290px;
+    height: 90px;
+    left: 89px;
+    top: 112px;
+}
 .cassette {
     height: 25px;
     width: 25px;
